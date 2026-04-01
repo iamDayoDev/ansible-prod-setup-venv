@@ -1,0 +1,70 @@
+# Python Virtual Environment
+
+.venv/
+venv/
+env/
+ENV/
+
+
+# Python Cache / Artifacts
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# Ansible
+
+*.retry
+.ansible/
+collections/
+
+
+# Logs
+
+*.log
+
+
+# VS Code
+
+.vscode/*
+.vscode
+!.vscode/settings.json
+
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+
+# Environment Variables
+
+.env
+.env.*
+
+
+# SSH / Sensitive Files (extra safety)
+
+*.pem
+*.key
+
+
+# Terraform (if ever used here)
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+
+# Misc
+
+*.swp
+*.swo
