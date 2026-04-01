@@ -22,18 +22,12 @@ The goal is to ensure consistency, avoid system-level pollution, and eliminate â
 I created a dedicated workspace and installed Ansible inside an isolated Python environment.
 
 ```bash
-mkdir -p ~/ansible-onboarding
-cd ~/ansible-onboarding
-
-python3 -m venv .venv
-source .venv/bin/activate
-
+mkdir -p ~/ansible-onboarding && cd ~/ansible-onboarding
+python3 -m venv .venv && source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install ansible ansible-lint yamllint
-
 ansible --version
 ansible-lint --version
-
 ```
 
 I saved the dependencies for reproducibility:
